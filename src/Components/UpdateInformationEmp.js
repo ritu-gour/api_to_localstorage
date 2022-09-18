@@ -53,7 +53,7 @@ function UpdateInformationEmp() {
               
                 
              
-                className="mx-auto d-block"
+                className="mx-auto d-block img11"
                 src={singleEmpInfo.avatar_url}
                 rounded
               />

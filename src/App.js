@@ -3,6 +3,7 @@ import UpdateInformationEmp from "./Components/UpdateInformationEmp";
 import Dashboard from "./Dashboard";
 import Login from "./Login";
 import PageNotFound from "./PageNotFound";
+import './App.css';
 function App() {
   return (
     <Routes>
