@@ -20,12 +20,12 @@ function Login() {
 
   const navigate = useNavigate();
 
-  useEffect (( ) => {
+  useEffect (() => {
     setUsername("");
     setPassword("");
     setError("");
 
-  },[username,password,error])
+  },[]);
 
   
   const handleForm = (event) => {
