@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 import {
   Col,
@@ -11,12 +12,22 @@ import {
 import { useNavigate } from "react-router-dom";
 
 function Login() {
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+ 
 
   const navigate = useNavigate();
 
+  useEffect (( ) => {
+    setUsername("");
+    setPassword("");
+    setError("");
+
+  },[username,password,error])
+
+  
   const handleForm = (event) => {
     event.preventDefault();
     if (username === "" && password === "") {

@@ -50,6 +50,9 @@ function UpdateInformationEmp() {
             <Card.Header as="h5">Update</Card.Header>
             <Card.Body>
               <Image
+              
+                
+             
                 className="mx-auto d-block"
                 src={singleEmpInfo.avatar_url}
                 rounded
